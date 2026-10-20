@@ -1,0 +1,14 @@
+{
+  "name": "ideas",
+  "version": "1.0.0",
+  
+  "private":true,
+  "scripts": {
+    "f": "pnpm --filter @ideas/front",
+    "server": "pnpm --filter @ideas/server",
+    "dev": "pnpm -r --parallel dev"
+ 
+  }
+  
+   
+}
